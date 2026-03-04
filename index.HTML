@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. (Dr.) Naveen Bhatnagar | Academic Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #001F3F;
+            --slate: #708090;
+        }
+        .bg-navy { background-color: var(--navy); }
+        .text-navy { color: var(--navy); }
+        .border-navy { border-color: var(--navy); }
+        .bg-slate { background-color: var(--slate); }
+        .text-slate { color: var(--slate); }
+        
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            height: 100%;
+            width: 2px;
+            background: #cbd5e1;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-navy font-bold text-xl tracking-tight">Prof. (Dr.) Naveen Bhatnagar</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-wider">
+                <a href="#about" class="hover:text-slate transition">About</a>
+                <a href="#expertise" class="hover:text-slate transition">Expertise</a>
+                <a href="#experience" class="hover:text-slate transition">Experience</a>
+                <a href="#contact" class="hover:text-slate transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Header -->
+    <header class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-navy leading-tight">Prof. (Dr.) <br>Naveen Bhatnagar</h1>
+                <p class="mt-6 text-xl text-slate font-light leading-relaxed">
+                    Senior Academic Leader | Expert in AI, Machine Learning, and Industry-Academic Liaison.
+                </p>
+                <div class="mt-10">
+                    <a href="#experience" class="bg-navy text-white px-8 py-4 rounded-lg font-semibold hover:bg-slate transition-all duration-300 shadow-lg">
+                        Explore My Professional Journey
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="w-72 h-72 md:w-96 md:h-96 bg-gray-200 rounded-2xl overflow-hidden border-4 border-slate shadow-2xl">
+                    <!-- Placeholder for Headshot -->
+                    <img src="https://via.placeholder.com" alt="Dr. Naveen Bhatnagar" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Professional Summary -->
+    <section id="about" class="py-20 bg-gray-50 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-navy mb-8 uppercase tracking-widest">Professional Summary</h2>
+            <p class="text-lg text-gray-700 leading-loose">
+                Highlighting over <span class="font-bold text-navy">25 years of experience</span> in building industry-aligned curricula (B.Tech/MBA), institutional building, and implementing skill-based courses. I am a high-energy, "people person" committed to student success through career strategy advice, aptitude enhancement, and impactful teaching.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3: Core Expertise -->
+    <section id="expertise" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-navy mb-12 text-center uppercase tracking-widest">Core Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-microchip text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Artificial Intelligence</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-chart-line text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Deep Learning</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-code text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Computer Science</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-magnifying-glass-chart text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Business Analytics</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-graduation-cap text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Curriculum Development</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-database text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Data Analytics</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Corporate Liaison -->
+    <section class="py-20 bg-navy text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1">
+                    <h2 class="text-3xl font-bold mb-6">Corporate Relations & Liaison</h2>
+                    <p class="text-gray-300 text-lg mb-8">
+                        Facilitating high-level associations and bridging the gap between academic theory and corporate practice. Specialist in placement strategy and industry integration.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> High-level association with <strong>AIMA</strong>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> Academic collaboration with <strong>SPJMR</strong>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> Industry Partnership with <strong>Galgotia University</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1 bg-white/10 p-8 rounded-2xl backdrop-blur-sm border border-white/20">
+                    <i class="fa-solid fa-handshake text-6xl opacity-50 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Liaison Expertise</h4>
+                    <p class="text-gray-400">Expertise in Corporate Relations, Placement Strategy, and Building Industry-Academia Ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Experience Timeline -->
+    <section id="experience" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-navy mb-12 text-center uppercase tracking-widest">Professional Experience</h2>
+            <div class="relative timeline-line ml-4">
+                <!-- Item 1 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-navy rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">Sept 2025 – Present</span>
+                    <h3 class="text-xl font-bold text-navy">Senior Manager Training Development</h3>
+                    <p class="text-gray-600">TORAH® Learning Solutions</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2022 – 2023</span>
+                    <h3 class="text-xl font-bold text-navy">Associate Director</h3>
+                    <p class="text-gray-600">Chandigarh University</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2018 – 2022</span>
+                    <h3 class="text-xl font-bold text-navy">Assistant Professor</h3>
+                    <p class="text-gray-600">Sharda University</p>
+                </div>
+                <!-- Item 4 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2013 – 2017</span>
+                    <h3 class="text-xl font-bold text-navy">Assistant Professor</h3>
+                    <p class="text-gray-600">Amity University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Education & Certifications -->
+    <section class="py-20 bg-gray-50 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold text-navy mb-8 uppercase tracking-widest border-b-2 border-slate pb-2 inline-block">Education</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold">Ph.D. in Computer Science Engineering</h4>
+                        <p class="text-slate">Advanced Research in CS</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">M.Phil (Computer Science)</h4>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">MBA in HRM</h4>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">M.Sc. in Computer Science</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold text-navy mb-8 uppercase tracking-widest border-b-2 border-slate pb-2 inline-block">Certifications</h2>
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fa-solid fa-certificate text-navy mt-1"></i>
+                        <div>
+                            <h4 class="font-bold">Generative AI Mastermind</h4>
+                            <p class="text-sm text-gray-600 italic">Specialization in Agentic AI</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <i class="fa-solid fa-certificate text-navy mt-1"></i>
+                        <div>
+                            <h4 class="font-bold">AI Tools & ChatGPT Workshop</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Footer/Contact -->
+    <footer id="contact" class="bg-navy pt-20 pb-10 text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-12 mb-16">
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contact Info</h3>
+                    <p class="flex items-center gap-3 text-gray-400 mb-4">
+                        <i class="fa-solid fa-envelope"></i> nims4cat@gmail.com
+                    </p>
+                    <p class="flex items-center gap-3 text-gray-400 mb-4">
+                        <i class="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh, India
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">LinkedIn</h3>
+                    <a href="https://www.linkedin.com" class="text-slate-300 hover:text-white transition">
+                        View Professional Profile <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+                    <ul class="text-gray-400 space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Back to Top</a></li>
+                        <li><a href="#about" class="hover:text-white transition">Biography</a></li>
+                        <li><a href="#experience" class="hover:text-white transition">Full Timeline</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-10 text-center text-sm text-gray-500">
+                <p>© 2024 Prof. (Dr.) Naveen Bhatnagar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #030308;
+  --card: #080812;
+  --panel: #0b0b18;
+  --border: #1a1a3a;
+  --cyan: #00f5ff;
+  --pink: #ff007a;
+  --yellow: #ffe600;
+  --green: #00ff88;
+  --text: #e0e8ff;
+  --muted: #3a3a6a;
+  --btn: #0d0d22;
+  --btn-hover: #14143a;
+}
+
+body {
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', monospace;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,245,255,0.012) 2px, rgba(0,245,255,0.012) 4px);
+  pointer-events: none;
+  z-index: 999;
+}
+
+body::after {
+  content: '';
+  position: fixed; inset: 0;
+  background:
+    radial-gradient(ellipse at 10% 90%, rgba(255,0,122,0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 10%, rgba(0,245,255,0.12) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  animation: fadeIn 0.7s ease both;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── HISTORY ── */
+.history-panel {
+  width: 210px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 0 30px rgba(0,245,255,0.05), inset 0 0 30px rgba(0,0,20,0.5);
+  max-height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-panel h3 {
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--cyan);
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.history-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.history-list::-webkit-scrollbar { width: 3px; }
+.history-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.history-item {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 9px 11px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.history-item:hover { border-color: var(--cyan); background: #0d0d28; }
+
+.h-expr {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 3px;
+  word-break: break-all;
+}
+
+.h-res {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--cyan);
+  word-break: break-all;
+}
+
+.history-empty {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+.clear-hist {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-family: 'Orbitron', monospace;
+  font-size: 7px;
+  letter-spacing: 2px;
+  padding: 7px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  height: auto;
+}
+.clear-hist:hover { border-color: var(--pink); color: var(--pink); text-shadow: 0 0 8px var(--pink); transform: none; }
+
+/* ── CALC ── */
+.calc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 22px;
+  width: 350px;
+  box-shadow:
+    0 0 60px rgba(0,245,255,0.08),
+    0 0 120px rgba(255,0,122,0.05),
+    inset 0 0 40px rgba(0,0,30,0.6);
+  position: relative;
+}
+
+.calc::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 20px; right: 20px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--pink), transparent);
+}
+
+.calc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.calc-title {
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: var(--cyan);
+  text-shadow: 0 0 12px var(--cyan);
+}
+
+.mode-toggle {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.mode-btn {
+  font-family: 'Orbitron', monospace;
+  font-size: 7px;
+  letter-spacing: 1.5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--muted);
+  transition: all 0.2s;
+  height: auto;
+  border-radius: 0;
+}
+
+.mode-btn.active {
+  background: rgba(0,245,255,0.15);
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--cyan);
+}
+
+/* ── DISPLAY ── */
+.display {
+  background: #020209;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px 14px;
+  margin-bottom: 14px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 0 30px rgba(0,0,20,0.8);
+}
+
+.expression {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  min-height: 18px;
+  word-break: break-all;
+  text-align: right;
+}
+
+.result {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 40px;
+  color: var(--cyan);
+  text-shadow: 0 0 20px rgba(0,245,255,0.8), 0 0 40px rgba(0,245,255,0.3);
+  letter-spacing: -1px;
+  line-height: 1.15;
+  word-break: break-all;
+  text-align: right;
+}
+
+.result.b1 { font-size: 30px; }
+.result.b2 { font-size: 22px; }
+.result.err { color: var(--pink); text-shadow: 0 0 20px var(--pink); }
+
+/* ── BUTTONS ── */
+.grid { display: grid; gap: 8px; }
+.grid-std { grid-template-columns: repeat(4, 1fr); }
+.grid-sci { grid-template-columns: repeat(5, 1fr); }
+
+button {
+  background: var(--btn);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  font-family: 'Orbitron', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  height: 56px;
+  cursor: pointer;
+  transition: all 0.12s;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.5px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:hover {
+  background: var(--btn-hover);
+  border-color: rgba(0,245,255,0.3);
+  box-shadow: 0 0 12px rgba(0,245,255,0.1);
+}
+
+button:active { transform: scale(0.92); }
+
+button.op {
+  background: #0d0d20;
+  color: var(--pink);
+  border-color: rgba(255,0,122,0.25);
+  font-size: 18px;
+}
+button.op:hover {
+  border-color: var(--pink);
+  box-shadow: 0 0 14px rgba(255,0,122,0.2);
+  text-shadow: 0 0 10px var(--pink);
+}
+
+button.fn {
+  background: #0a0a1c;
+  color: #6666aa;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+button.fn:hover { color: var(--text); border-color: rgba(255,255,255,0.15); }
+
+button.sci {
+  background: #080820;
+  color: var(--yellow);
+  border-color: rgba(255,230,0,0.15);
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  height: 46px;
+}
+button.sci:hover {
+  border-color: var(--yellow);
+  box-shadow: 0 0 12px rgba(255,230,0,0.15);
+  text-shadow: 0 0 8px var(--yellow);
+}
+
+button.eq {
+  background: linear-gradient(135deg, rgba(0,245,255,0.18), rgba(255,0,122,0.12));
+  color: var(--cyan);
+  border-color: var(--cyan);
+  font-size: 22px;
+  grid-column: span 2;
+  text-shadow: 0 0 12px var(--cyan);
+  box-shadow: 0 0 20px rgba(0,245,255,0.1);
+}
+button.eq:hover {
+  background: linear-gradient(135deg, rgba(0,245,255,0.28), rgba(255,0,122,0.2));
+  box-shadow: 0 0 30px rgba(0,245,255,0.2);
+}
+
+button.zero { grid-column: span 2; }
+
+.sci-panel { margin-bottom: 8px; }
+.sci-panel.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HISTORY PANEL -->
+  <div class="history-panel">
+    <h3>⟨ HISTORY ⟩</h3>
+    <div class="history-list" id="historyList">
+      <div class="history-empty" id="histEmpty">No calculations yet.<br>Results appear here.</div>
+    </div>
+    <button class="clear-hist" onclick="clearHistory()">CLEAR HISTORY</button>
+  </div>
+
+  <!-- CALCULATOR -->
+  <div class="calc">
+    <div class="calc-header">
+      <span class="calc-title">// CALC_V2</span>
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btnStd" onclick="setMode('std')">STD</button>
+        <button class="mode-btn" id="btnSci" onclick="setMode('sci')">SCI</button>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="expression" id="expression"></div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <!-- Scientific Panel -->
+    <div class="sci-panel hidden grid grid-sci" id="sciPanel">
+      <button class="sci" onclick="sciOp('sin')">sin</button>
+      <button class="sci" onclick="sciOp('cos')">cos</button>
+      <button class="sci" onclick="sciOp('tan')">tan</button>
+      <button class="sci" onclick="sciOp('log')">log</button>
+      <button class="sci" onclick="sciOp('ln')">ln</button>
+      <button class="sci" onclick="sciOp('sqrt')">√x</button>
+      <button class="sci" onclick="sciOp('sq')">x²</button>
+      <button class="sci" onclick="sciOp('inv')">1/x</button>
+      <button class="sci" onclick="inputConst('pi')">π</button>
+      <button class="sci" onclick="inputConst('e')">e</button>
+    </div>
+
+    <!-- Standard Grid -->
+    <div class="grid grid-std">
+      <button class="fn" onclick="clearAll()">AC</button>
+      <button class="fn" onclick="toggleSign()">+/−</button>
+      <button class="fn" onclick="percent()">%</button>
+      <button class="op" onclick="setOp('/')">÷</button>
+
+      <button onclick="input('7')">7</button>
+      <button onclick="input('8')">8</button>
+      <button onclick="input('9')">9</button>
+      <button class="op" onclick="setOp('*')">×</button>
+
+      <button onclick="input('4')">4</button>
+      <button onclick="input('5')">5</button>
+      <button onclick="input('6')">6</button>
+      <button class="op" onclick="setOp('-')">−</button>
+
+      <button onclick="input('1')">1</button>
+      <button onclick="input('2')">2</button>
+      <button onclick="input('3')">3</button>
+      <button class="op" onclick="setOp('+')">+</button>
+
+      <button class="zero" onclick="input('0')">0</button>
+      <button onclick="inputDot()">.</button>
+      <button class="eq" onclick="equals()">=</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let current = '0', prev = '', op = null, justEvaled = false;
+let history = [];
+
+const resEl = document.getElementById('result');
+const expEl = document.getElementById('expression');
+
+function updateDisplay() {
+  resEl.textContent = current;
+  const l = current.replace('-','').length;
+  resEl.className = 'result' + (current === 'Error' ? ' err' : l > 12 ? ' b2' : l > 8 ? ' b1' : '');
+}
+
+function input(d) {
+  if (justEvaled) { current = d; justEvaled = false; }
+  else current = (current === '0' || current === 'Error') ? d : current + d;
+  updateDisplay();
+}
+
+function inputDot() {
+  if (justEvaled) { current = '0.'; justEvaled = false; }
+  else if (!current.includes('.')) current += '.';
+  updateDisplay();
+}
+
+function setOp(o) {
+  if (op && !justEvaled) compute();
+  prev = current; op = o; justEvaled = true;
+  expEl.textContent = `${prev} ${opSym(o)}`;
+}
+
+function opSym(o) { return {'+':'+','-':'−','*':'×','/':'÷'}[o]; }
+
+function compute() {
+  const a = parseFloat(prev), b = parseFloat(current);
+  let r;
+  if      (op === '+') r = a + b;
+  else if (op === '-') r = a - b;
+  else if (op === '*') r = a * b;
+  else if (op === '/') r = b === 0 ? null : a / b;
+  current = (r === null || !isFinite(r)) ? 'Error' : fmt(r);
+}
+
+function fmt(n) { return String(parseFloat(n.toFixed(10))); }
+
+function equals() {
+  if (!op) return;
+  const expr = `${prev} ${opSym(op)} ${current}`;
+  compute();
+  expEl.textContent = expr + ' =';
+  addHistory(expr, current);
+  op = null; justEvaled = true;
+  updateDisplay();
+}
+
+function clearAll() {
+  current = '0'; prev = ''; op = null; justEvaled = false;
+  expEl.textContent = '';
+  updateDisplay();
+}
+
+function toggleSign() {
+  if (current === '0' || current === 'Error') return;
+  current = current.startsWith('-') ? current.slice(1) : '-' + current;
+  updateDisplay();
+}
+
+function percent() {
+  current = fmt(parseFloat(current) / 100);
+  updateDisplay();
+}
+
+function sciOp(fn) {
+  const v = parseFloat(current);
+  let r, label;
+  const deg = v * Math.PI / 180;
+  if      (fn === 'sin')  { r = Math.sin(deg); label = `sin(${current}°)`; }
+  else if (fn === 'cos')  { r = Math.cos(deg); label = `cos(${current}°)`; }
+  else if (fn === 'tan')  { r = Math.tan(deg); label = `tan(${current}°)`; }
+  else if (fn === 'log')  { r = v <= 0 ? NaN : Math.log10(v); label = `log(${current})`; }
+  else if (fn === 'ln')   { r = v <= 0 ? NaN : Math.log(v); label = `ln(${current})`; }
+  else if (fn === 'sqrt') { r = v < 0 ? NaN : Math.sqrt(v); label = `√(${current})`; }
+  else if (fn === 'sq')   { r = v * v; label = `(${current})²`; }
+  else if (fn === 'inv')  { r = v === 0 ? NaN : 1 / v; label = `1/(${current})`; }
+
+  const res = (!isFinite(r) || isNaN(r)) ? 'Error' : fmt(r);
+  addHistory(label, res);
+  expEl.textContent = label + ' =';
+  current = res;
+  justEvaled = true;
+  updateDisplay();
+}
+
+function inputConst(c) {
+  current = c === 'pi' ? fmt(Math.PI) : fmt(Math.E);
+  justEvaled = false;
+  updateDisplay();
+}
+
+/* HISTORY */
+function addHistory(expr, res) {
+  history.unshift({ expr, res });
+  if (history.length > 50) history.pop();
+  renderHistory();
+}
+
+function renderHistory() {
+  const el = document.getElementById('historyList');
+  const empty = document.getElementById('histEmpty');
+  empty.style.display = history.length ? 'none' : 'block';
+  el.querySelectorAll('.history-item').forEach(e => e.remove());
+  history.forEach(h => {
+    const div = document.createElement('div');
+    div.className = 'history-item';
+    div.innerHTML = `<div class="h-expr">${h.expr}</div><div class="h-res">${h.res}</div>`;
+    div.onclick = () => { current = h.res === 'Error' ? '0' : h.res; justEvaled = true; updateDisplay(); };
+    el.appendChild(div);
+  });
+}
+
+function clearHistory() {
+  history = [];
+  renderHistory();
+}
+
+/* MODE */
+function setMode(m) {
+  document.getElementById('sciPanel').classList.toggle('hidden', m !== 'sci');
+  document.getElementById('btnStd').classList.toggle('active', m === 'std');
+  document.getElementById('btnSci').classList.toggle('active', m === 'sci');
+}
+
+/* KEYBOARD */
+document.addEventListener('keydown', e => {
+  if (e.key >= '0' && e.key <= '9') input(e.key);
+  else if (e.key === '.') inputDot();
+  else if (e.key === '+') setOp('+');
+  else if (e.key === '-') setOp('-');
+  else if (e.key === '*') setOp('*');
+  else if (e.key === '/') { e.preventDefault(); setOp('/'); }
+  else if (e.key === 'Enter' || e.key === '=') equals();
+  else if (e.key === 'Escape') clearAll();
+  else if (e.key === 'Backspace') {
+    if (current !== 'Error' && current.length > 1) current = current.slice(0,-1);
+    else current = '0';
+    updateDisplay();
+  }
+});
+</script>
+</body>
+</html>
