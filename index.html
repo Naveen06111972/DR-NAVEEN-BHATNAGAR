@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. (Dr.) Naveen Bhatnagar | Academic Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #001F3F;
+            --slate: #708090;
+        }
+        .bg-navy { background-color: var(--navy); }
+        .text-navy { color: var(--navy); }
+        .border-navy { border-color: var(--navy); }
+        .bg-slate { background-color: var(--slate); }
+        .text-slate { color: var(--slate); }
+        
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            height: 100%;
+            width: 2px;
+            background: #cbd5e1;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-navy font-bold text-xl tracking-tight">Prof. (Dr.) Naveen Bhatnagar</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-wider">
+                <a href="#about" class="hover:text-slate transition">About</a>
+                <a href="#expertise" class="hover:text-slate transition">Expertise</a>
+                <a href="#experience" class="hover:text-slate transition">Experience</a>
+                <a href="#contact" class="hover:text-slate transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Header -->
+    <header class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-navy leading-tight">Prof. (Dr.) <br>Naveen Bhatnagar</h1>
+                <p class="mt-6 text-xl text-slate font-light leading-relaxed">
+                    Senior Academic Leader | Expert in AI, Machine Learning, and Industry-Academic Liaison.
+                </p>
+                <div class="mt-10">
+                    <a href="#experience" class="bg-navy text-white px-8 py-4 rounded-lg font-semibold hover:bg-slate transition-all duration-300 shadow-lg">
+                        Explore My Professional Journey
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="w-72 h-72 md:w-96 md:h-96 bg-gray-200 rounded-2xl overflow-hidden border-4 border-slate shadow-2xl">
+                    <!-- Placeholder for Headshot -->
+                    <img src="https://via.placeholder.com" alt="Dr. Naveen Bhatnagar" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 2: Professional Summary -->
+    <section id="about" class="py-20 bg-gray-50 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-navy mb-8 uppercase tracking-widest">Professional Summary</h2>
+            <p class="text-lg text-gray-700 leading-loose">
+                Highlighting over <span class="font-bold text-navy">25 years of experience</span> in building industry-aligned curricula (B.Tech/MBA), institutional building, and implementing skill-based courses. I am a high-energy, "people person" committed to student success through career strategy advice, aptitude enhancement, and impactful teaching.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 3: Core Expertise -->
+    <section id="expertise" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-navy mb-12 text-center uppercase tracking-widest">Core Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-microchip text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Artificial Intelligence</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-chart-line text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Deep Learning</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-code text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Computer Science</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-magnifying-glass-chart text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Business Analytics</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-graduation-cap text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Curriculum Development</h3>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-xl hover:shadow-xl transition text-center">
+                    <i class="fa-solid fa-database text-4xl text-slate mb-4"></i>
+                    <h3 class="font-bold text-navy">Data Analytics</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Corporate Liaison -->
+    <section class="py-20 bg-navy text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-1">
+                    <h2 class="text-3xl font-bold mb-6">Corporate Relations & Liaison</h2>
+                    <p class="text-gray-300 text-lg mb-8">
+                        Facilitating high-level associations and bridging the gap between academic theory and corporate practice. Specialist in placement strategy and industry integration.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> High-level association with <strong>AIMA</strong>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> Academic collaboration with <strong>SPJMR</strong>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-200">
+                            <i class="fa-solid fa-check-circle text-white"></i> Industry Partnership with <strong>Galgotia University</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1 bg-white/10 p-8 rounded-2xl backdrop-blur-sm border border-white/20">
+                    <i class="fa-solid fa-handshake text-6xl opacity-50 mb-4"></i>
+                    <h4 class="text-xl font-bold mb-2">Liaison Expertise</h4>
+                    <p class="text-gray-400">Expertise in Corporate Relations, Placement Strategy, and Building Industry-Academia Ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Experience Timeline -->
+    <section id="experience" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-navy mb-12 text-center uppercase tracking-widest">Professional Experience</h2>
+            <div class="relative timeline-line ml-4">
+                <!-- Item 1 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-navy rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">Sept 2025 – Present</span>
+                    <h3 class="text-xl font-bold text-navy">Senior Manager Training Development</h3>
+                    <p class="text-gray-600">TORAH® Learning Solutions</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2022 – 2023</span>
+                    <h3 class="text-xl font-bold text-navy">Associate Director</h3>
+                    <p class="text-gray-600">Chandigarh University</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2018 – 2022</span>
+                    <h3 class="text-xl font-bold text-navy">Assistant Professor</h3>
+                    <p class="text-gray-600">Sharda University</p>
+                </div>
+                <!-- Item 4 -->
+                <div class="mb-12 ml-12 relative">
+                    <div class="absolute -left-16 mt-1 w-8 h-8 bg-slate rounded-full border-4 border-white"></div>
+                    <span class="text-sm font-bold text-slate">2013 – 2017</span>
+                    <h3 class="text-xl font-bold text-navy">Assistant Professor</h3>
+                    <p class="text-gray-600">Amity University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Education & Certifications -->
+    <section class="py-20 bg-gray-50 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold text-navy mb-8 uppercase tracking-widest border-b-2 border-slate pb-2 inline-block">Education</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold">Ph.D. in Computer Science Engineering</h4>
+                        <p class="text-slate">Advanced Research in CS</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">M.Phil (Computer Science)</h4>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">MBA in HRM</h4>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">M.Sc. in Computer Science</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold text-navy mb-8 uppercase tracking-widest border-b-2 border-slate pb-2 inline-block">Certifications</h2>
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fa-solid fa-certificate text-navy mt-1"></i>
+                        <div>
+                            <h4 class="font-bold">Generative AI Mastermind</h4>
+                            <p class="text-sm text-gray-600 italic">Specialization in Agentic AI</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <i class="fa-solid fa-certificate text-navy mt-1"></i>
+                        <div>
+                            <h4 class="font-bold">AI Tools & ChatGPT Workshop</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Footer/Contact -->
+    <footer id="contact" class="bg-navy pt-20 pb-10 text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-12 mb-16">
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contact Info</h3>
+                    <p class="flex items-center gap-3 text-gray-400 mb-4">
+                        <i class="fa-solid fa-envelope"></i> nims4cat@gmail.com
+                    </p>
+                    <p class="flex items-center gap-3 text-gray-400 mb-4">
+                        <i class="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh, India
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">LinkedIn</h3>
+                    <a href="https://www.linkedin.com" class="text-slate-300 hover:text-white transition">
+                        View Professional Profile <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+                    <ul class="text-gray-400 space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Back to Top</a></li>
+                        <li><a href="#about" class="hover:text-white transition">Biography</a></li>
+                        <li><a href="#experience" class="hover:text-white transition">Full Timeline</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-10 text-center text-sm text-gray-500">
+                <p>© 2024 Prof. (Dr.) Naveen Bhatnagar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
